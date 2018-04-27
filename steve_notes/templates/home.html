@@ -1,0 +1,6 @@
+<script src="{{url_for('static', filename='js/home.js')}}"></script>
+
+<h1>Hello world</h1>
+{% for x in range(10) %}
+    {% include 'notes/note.html' %}
+{% endfor %}
