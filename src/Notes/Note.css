@@ -2,4 +2,25 @@
     text-align: center;
     border-radius: 4px;
     padding: 10px;
+    margin: 6px auto;
+    width: 33%;
+    transition: background-color .75s, width .75s;
+}
+
+.note .note-title textarea {
+	font-size: 25pt;
+}
+
+.note .note-body textarea {
+	font-size: 14pt;
+}
+
+.note textarea {
+	text-align: center;
+}
+
+.note:hover {
+    transition: background-color .25s, width .75s;
+    width: 34%;
+    background-color: rgba(161, 200, 119, 0.2)
 }

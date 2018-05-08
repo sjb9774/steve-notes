@@ -10,7 +10,7 @@ Session = sessionmaker(bind=db)
 
 
 @contextmanager
-def db_session(commit_and_flush=True):
+def db_session(commit_and_flush=False):
 	global Session
 	session = Session()
 	yield session
